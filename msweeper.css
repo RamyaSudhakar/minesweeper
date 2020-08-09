@@ -1,0 +1,27 @@
+#wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+#wrapper .cell {
+  box-sizing: border-box;
+  background: #ccc;
+  border: 1px solid #aaa;
+  font-size: 30px;
+  text-align: center;
+}
+#wrapper .cell.mark {
+  background: #fea;
+}
+#wrapper .cell.reveal {
+  background: #f7f7f7;
+}
+#wrapper .cell.boom {
+  background: #f00;
+}
+
+body, html {
+  font-family: arial, sans-serif;
+  padding: 20px;
+}
